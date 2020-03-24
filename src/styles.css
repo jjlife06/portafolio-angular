@@ -1,6 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
-
-
+/* SVG ANIMATION*/
 .animated {
     -webkit-animation-duration: 0.5s;
     animation-duration: 0.5s;
@@ -43,3 +41,9 @@
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
   }
+
+
+  svg path,
+svg rect{
+  fill: black;
+}
